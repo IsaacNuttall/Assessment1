@@ -58,7 +58,7 @@ totalAcres += (fujiAcres[i] + galaAcres[i] + pinkAcres[i])
 
 console.log(totalAcres)
 
-
+let comment1 = "I created a variable called totalAcres, which I originally set to 0. Then, I created a for loop, where I added the value of each acre value to totalAcres, which increased its value to the total number of acres picked. In order to ensure that the acres for all apples were counted, I included the aggregate of three types of apples inside of my for loop."
 // PROBLEM 2
 
 /*
@@ -77,6 +77,7 @@ let averageDailyAcres = totalAcres/fujiAcres.length
 
 console.log(averageDailyAcres)
 
+let comment2 = "Since the average of something is the total divided by the number of data points, the total acres picked divided by the number of days for picking provides the average daily acres of apples picked."
 // PROBLEM 3
 
 /*
@@ -116,6 +117,8 @@ while (acresLeft > 0) {
     acresLeft -= averageDailyAcres
 }
 console.log(days)
+
+let comment3 = "This loop continues to run as long as there are still acres to be picked. For each loop, one day is added, and the average number of apple acres picked is subtracted from the acres left. This continues until there are no acres left to be picked."
 // PROBLEM 4
 
 /*
@@ -156,7 +159,7 @@ console.log(fujiTons)
 console.log(galaTons)
 console.log(pinkTons)
 
-
+let comment4 = "This for loop utilizes three empty brackets, and uses the push method to fill them with the values of the tons of apples picked. Each acre yields 6.5 tons of apples, so the loop multiplies each value in each array by 6.5 to calculate how many tons of apples have been picked."
 // PROBLEM 5
 
 /*
@@ -195,6 +198,8 @@ console.log(fujiPounds)
 console.log(galaPounds)
 console.log(pinkPounds)
 
+let comment5 = "To aggregate the three arrays of apple tons into three single values, I created 3 variables representing the pounds of 3 types of apples, and set them each to 0. Then, I added the values of the apples in tons to the three variables for each apple type respectively. Then, to convert to pounds, I used a for loop to multiply all 3 values by 2000."
+
 // PROBLEM 6
 
 /*
@@ -221,7 +226,7 @@ console.log(fujiProfit)
 console.log(galaProfit)
 console.log(pinkProfit)
 
-
+let comment6 = "since profit is calculated by multiplying profit per apple by all apples picked, I multiplied the three different pound values for the apples by their respective prices to calculate profit."
 
 // PROBLEM 7
 
@@ -236,3 +241,5 @@ console.log(pinkProfit)
 // CODE HERE
 let totalProfit = fujiProfit + galaProfit + pinkProfit
 console.log(totalProfit)
+
+let comment7 = "since we already know the profits brought by the three apple types respectively, we simply must add them together with the + sign to calculate total profit."
